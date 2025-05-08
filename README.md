@@ -2,15 +2,21 @@
 
 ## Dev env setup
 
+1. Download the data from the web.
 1. Clone the repository on local machine.
-2. Create a virtual enviroment.
-3. Install dependencies.
+1. Create a virtual enviroment.
+1. Install dependencies.
 
 ```bash
+wget https://ec.europa.eu/eurostat/cache/website/microdata/public-microdata-lfs/RO_PUF_LFS.zip
+mv RO_PUF_LFS.zip ./data/raw/
+unzip RO_PUF_LFS.zip
+
 python -m venv venv
 
 Set-ExecutionPolicy Unrestricted -Scope Process # Scope based, must be run each time cause windows is trash.
 
+source ./venv/scripts/activate
 .\venv\Scripts\activate
 
 python -m pip install --upgrade pip
