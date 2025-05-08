@@ -2,7 +2,7 @@
 
 ## Dev env setup
 
-1. Download the data from the web.
+1. Download the data from the web. [(url)](https://ec.europa.eu/eurostat/cache/website/microdata/public-microdata-lfs/RO_PUF_LFS.zip)
 1. Clone the repository on local machine.
 1. Create a virtual enviroment.
 1. Install dependencies.
